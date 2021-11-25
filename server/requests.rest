@@ -1,0 +1,15 @@
+
+
+###
+
+GET http://localhost:9000
+
+
+###
+
+POST http://localhost:9000/newcomment
+Content-Type: application/json
+
+{
+    "comment" : "Hey"
+}
